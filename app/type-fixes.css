@@ -1,0 +1,12 @@
+/* Boldonse has very tall glyphs: give display type room to breathe. */
+.jcard-title,
+.page-title,
+.pdp-title,
+.section-title,
+.flyer h2 {
+  line-height: 1.4;
+}
+
+.opt[aria-pressed='true'] i {
+  border-color: var(--paper);
+}

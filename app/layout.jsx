@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { JsonLd, orgLd } from '@/lib/seo';
 import './globals.css';
+import './type-fixes.css';
 
 const display = localFont({
   src: '../assets/fonts/Boldonse-Regular.ttf',
