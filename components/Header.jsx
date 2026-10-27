@@ -16,7 +16,7 @@ const NAV = [
 
 export default function Header() {
   const { count, ready } = useCart();
-  const pathname = usePathname();
+  const pathname = usePathname() || '/';
   const [open, setOpen] = useState(false);
 
   useEffect(() => setOpen(false), [pathname]);

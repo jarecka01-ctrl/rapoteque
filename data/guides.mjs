@@ -15,7 +15,7 @@ export const GUIDES = [
     sections: [
       {
         p: [
-          'A 90s hip hop party is the easiest theme to dress for, because the era was all about comfort turned up loud. Big shapes, bright colors, logos-free basics worn with confidence and one statement piece. You almost certainly own half the outfit already.',
+          'A 90s hip hop party is the easiest theme to dress for, because the era was all about comfort turned up loud. Big shapes, bright colors, logo-free basics worn with confidence and one statement piece. You almost certainly own half the outfit already.',
           'Below are twelve ideas that work for any budget, from a five-minute closet raid to a full head-to-toe look, plus a quick checklist so nothing is missing on the night.',
         ],
       },
@@ -85,7 +85,7 @@ export const GUIDES = [
     short: '80s hip hop fashion',
     title: '80s Hip Hop Fashion: The Pieces That Defined the Decade',
     description:
-      'A guide to 80s hip hop fashion: tracksuits, shell-toe style sneakers, bucket hats, nameplate jewelry, leather and the b-boy uniform, and how to wear the look today.',
+      'A guide to 80s hip hop fashion: tracksuits, clean white sneakers, bucket hats, nameplate jewelry, leather and the b-boy uniform, and how to wear the look today.',
     date: '2026-10-18',
     keywords: ['80s hip hop fashion', '80s hip hop outfits', 'old school hip hop style', '80s rapper outfit'],
     related: ['turn-it-up', 'enter-the-cypher', 'block-party-1973', 'spray-can-society'],
@@ -117,7 +117,7 @@ export const GUIDES = [
         ],
       },
       {
-        h: 'Leather, Kangol-style hats and the downtown crossover',
+        h: 'Leather, felt hats and the downtown crossover',
         p: [
           'By the middle of the decade, leather bomber jackets, sheepskin coats and wool-felt bucket hats joined the look. Downtown art and club scenes mixed with uptown style, and graffiti writers brought paint-splattered workwear and denim into the mix.',
         ],
@@ -233,7 +233,7 @@ export const GUIDES = [
     short: 'Gifts for hip hop fans',
     title: 'Gift Ideas for Hip Hop Fans: 15 Picks They Will Actually Use',
     description:
-      'Thoughtful gift ideas for hip hop fans, producers, DJs and dancers: from vinyl and cassette gear to apparel, books and experiences, at every budget.',
+      'Thoughtful gift ideas for hip hop fans, producers, DJs and dancers: from vinyl and cassette gear to apparel, classes and experiences, at every budget.',
     date: '2026-10-10',
     keywords: ['gifts for hip hop fans', 'hip hop gift ideas', 'gifts for rap fans', 'gift for hip hop dad'],
     related: ['pause-tape-producer', 'crate-digger', 'boom-bap-embroidered', 'tiny-beatmaker'],
@@ -467,7 +467,7 @@ export const GUIDES = [
       {
         h: 'Decline and comeback',
         p: [
-          'Personal headphones players and, later, digital music shrank the boombox to a collector’s item. Today vintage models sell well, and the shape lives on in art, design and modern Bluetooth speakers that borrow its look.',
+          'Personal headphone players and, later, digital music shrank the boombox to a collector’s item. Today vintage models sell well, and the shape lives on in art, design and modern Bluetooth speakers that borrow its look.',
         ],
       },
     ],

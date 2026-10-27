@@ -12,7 +12,7 @@ export default function ProductBuy({ slug, title, price, colors, sizes, sizeGuid
   const [size, setSize] = useState(sizes.length === 1 ? sizes[0] : null);
   const [warn, setWarn] = useState(false);
   const current = colors.find((c) => c.name === color);
-  const justAdded = lastAdded && lastAdded.slug === slug && Date.now() - lastAdded.at < 8000;
+  const justAdded = lastAdded && lastAdded.slug === slug;
 
   function onAdd() {
     if (!size) {
@@ -56,7 +56,7 @@ export default function ProductBuy({ slug, title, price, colors, sizes, sizeGuid
         <h1 className="pdp-title">{title}</h1>
         <p className="pdp-price">${price}</p>
 
-        {colors.length > 1 || colors[0].name !== 'Print' ? (
+        {colors[0].name !== 'Print' && (
           <>
             <p className="opt-label">
               <span>Color: {color}</span>
@@ -76,7 +76,7 @@ export default function ProductBuy({ slug, title, price, colors, sizes, sizeGuid
               ))}
             </div>
           </>
-        ) : null}
+        )}
 
         <p className="opt-label">
           <span>Size{size ? `: ${size}` : ''}</span>

@@ -466,6 +466,13 @@ p {
   gap: 28px 20px;
 }
 
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 12px;
+  }
+}
+
 .card {
   text-decoration: none;
   display: block;

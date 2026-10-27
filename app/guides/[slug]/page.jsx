@@ -47,7 +47,7 @@ export default async function GuidePage({ params }) {
           {g.title}
         </h1>
         <p className="article-meta">
-          <time dateTime={g.date}>{date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time>
+          <time dateTime={g.date}>{date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time>
         </p>
       </header>
 
